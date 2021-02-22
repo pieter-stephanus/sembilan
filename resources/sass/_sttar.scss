@@ -1,0 +1,93 @@
+/*!
+* STTAR Custom Style
+* version 1.0 compiled at Monday, 08 February 2021
+* Script source: https://adminlte.io/docs/3.1/additional-styles.html
+* Implementation source: https://github.com/jeroennoten/Laravel-AdminLTE/issues/426
+*/
+
+// Custom Colors and Themes Registration
+// -------------------------------------
+@import '~bootstrap/scss/functions';
+@import '../../vendor/almasaeed2010/adminlte/build/scss/bootstrap-variables';
+
+// Custom Color START
+// $ccnavyblue: #140288 !default;
+// $ccdolly: #fff688 !default;
+// $ccyellow: #ffff00 !default;
+// $ccjade: #00a77e !default;
+// $ccstiletto: #962f34 !default;
+// $ccvermilion: #ff4500 !default;
+// $colors: map-merge(
+//     (
+//         "ccnavyblue": $ccnavyblue,
+//         "ccdolly": $ccdolly,
+//         "ccyellow": $ccyellow,
+//         "ccjade": $ccjade,
+//         "ccstiletto": $ccstiletto,
+//         "ccvermilion": $ccvermilion,
+//     ),
+//     $colors
+// );
+// Custom Color END
+
+// Custom Theme START
+$ctnavyblue: #140288 !default;
+$ctdolly: #fff688 !default;
+$ctyellow: #ffff00 !default;
+$ctjade: #00a77e !default;
+$ctstiletto: #962f34 !default;
+$ctvermilion: #ff4500 !default;
+$theme-colors: map-merge(
+    (
+        "ctnavyblue": $ctnavyblue,
+        "ctdolly": $ctdolly,
+        "ctyellow": $ctyellow,
+        "ctjade": $ctjade,
+        "ctstiletto": $ctstiletto,
+        "ctvermilion": $ctvermilion,
+    ),
+    $theme-colors
+);
+// Custom Theme END
+
+// Custom Variables and Mixins Registration
+// Note: enabling this will double the size of app.css size
+// --------------------------------------------------------
+@import '../../vendor/almasaeed2010/adminlte/build/scss/variables';
+@import '../../vendor/almasaeed2010/adminlte/build/scss/mixins';
+
+@import '~bootstrap/scss/bootstrap';
+
+@import '../../vendor/almasaeed2010/adminlte/build/scss/parts/core';
+@import '../../vendor/almasaeed2010/adminlte/build/scss/parts/components';
+@import '../../vendor/almasaeed2010/adminlte/build/scss/parts/extra-components';
+@import '../../vendor/almasaeed2010/adminlte/build/scss/parts/pages';
+@import '../../vendor/almasaeed2010/adminlte/build/scss/parts/plugins';
+@import '../../vendor/almasaeed2010/adminlte/build/scss/parts/miscellaneous';
+
+// Custom Style START
+// .csnavyblue {
+//     background-color: $ccnavyblue;
+//     color: $ccdolly;
+// }
+// .csdolly {
+//     background-color: $ccdolly;
+//     color: $ccnavyblue;
+// }
+// .csyellow {
+//     background-color: $ccyellow;
+//     color: $ccnavyblue;
+// }
+// .csjade {
+//     background-color: $ccjade;
+//     color: $ccstiletto;
+// }
+// .csstiletto {
+//     background-color: $ccstiletto;
+//     color: $ccjade;
+// }
+// .csvermilion {
+//     background-color: $ccvermilion;
+//     color: $ccnavyblue;
+// }
+// Custom Style END
